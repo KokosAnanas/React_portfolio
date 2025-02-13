@@ -1,15 +1,17 @@
+import PropTypes from "prop-types";
+import "./Button.css";
 
-export default function Button() {
- 
+export default function Button({className, label, disabled = false, onClick }) {
   return (
-	<>
-    <button onClick={() => console.log('I am')}>Связаться со мной</button>
-	<form action="">
-		<label htmlFor="name">Ваше имя:</label>
-		<input id='name' />
-		<input type="checkbox" checked={false} />
-	</form>
-	</>
-  )
+    <button className={className} disabled={disabled} onClick={onClick}>
+      {label}
+    </button>
+  );
 }
 
+Button.propTypes = {
+	className: PropTypes.string,
+	label: PropTypes.string.isRequired,
+	disabled: PropTypes.bool,
+	onClick: PropTypes.func
+}
