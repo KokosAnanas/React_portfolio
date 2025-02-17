@@ -6,6 +6,11 @@
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(24, 0, 0);
+	padding: 1.2px;
+}
+
+.but {
+	margin-top: 10px;
 }
 
 

@@ -8,6 +8,7 @@ import useResize from '../../hooks/useResize'
 import Burger from '../Burger/Burger'
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
+import "./Header.css";
 import cn from "classnames";
 
 export default function Header() {
@@ -18,7 +19,7 @@ export default function Header() {
      const { theme } = useContext(ThemeContext);
     return (
       <header className={cn("header", theme)}>
-        <div className="logo">Logo</div>
+        <div className="logo" onClick={() => navigate("/")} label="Главная">Sonali.</div>
         {width > 768 && <Menu />}
         {width <= 768 && <Burger onClick={() => setOpen((state) => !state)} />}
         {isOpen && width <= 768 && <Menu className="menu" />}

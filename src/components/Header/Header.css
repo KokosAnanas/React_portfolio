@@ -3,3 +3,23 @@
 	justify-content: space-between;
 	background-color: var(--background-color);
 }
+
+.logo {
+	/* Sonali. */
+		/* position: absolute; */
+		width: 86px;
+		height: 32px;
+		left: 120px;
+		top: 29px;
+
+		color: rgb(44, 54, 63);
+		font-family: Plus Jakarta Sans;
+		font-size: 25.01px;
+		font-weight: 800;
+		line-height: 32px;
+		letter-spacing: 0%;
+		text-align: left;
+
+		margin-top: 10px;
+		margin-left: 40px;
+}

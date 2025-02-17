@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export default function Burger({onClick}) {
 	return (
-		<div onClick={onClick}>
+		<div onClick={onClick} className={styles.but}>
 			{[1, 2, 3].map((el) => (
 				<span key={el} className={styles.line} />
 			))}
