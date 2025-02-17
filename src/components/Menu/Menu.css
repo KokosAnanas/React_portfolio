@@ -1,0 +1,28 @@
+.menu {
+	display: flex;
+	min-width: 30vw;
+	justify-content: space-between;
+	
+}
+.menu-link {
+	display: inline-block;
+	padding: 2px;
+	flex-grow: 12;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+.menu-link:hover {
+	color: #9e0707;
+	transition: all 0.2s;
+}
+
+@media screen and (max-width: 768px) {
+
+	.menu {
+		flex-direction: column;
+					
+	}
+			
+}
+

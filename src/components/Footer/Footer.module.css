@@ -1,0 +1,7 @@
+.menu {
+	display: flex;
+	min-width: 30vw;
+	justify-content: space-between;
+
+}
+

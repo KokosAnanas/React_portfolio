@@ -1,3 +1,91 @@
 .layout {
 	background-color: antiquewhite;
+	/* transform: scale(0.5); */
+}
+
+.main {
+	transform: scale(0.5)
+}
+
+.main__photo {	
+	position: absolute;
+	width: 620px;
+	height: 740px;
+	left: 625px;
+	top: 190px;
+}
+
+.main__h1 {
+	/* I’m Sonali a Web developer */
+		position: absolute;
+		width: 700px;
+		height: 180px;
+		left: 120px;
+		top: 315px;
+
+		color: rgb(44, 54, 63);
+		font-family: Plus Jakarta Sans;
+		font-size: 72px;
+		font-weight: 800;
+		line-height: 125%;
+		letter-spacing: 10%;
+		text-align: left;
+		text-transform: uppercase;
+}
+
+.main__p {
+	/* I craft high-performing, beautiful websites that are conversion-focused, brand-accurate, & people-friendly. */
+		position: absolute;
+		width: 620px;
+		height: 108px;
+		left: 120px;
+		top: 525px;
+
+		color: rgb(44, 54, 63);
+		font-family: Plus Jakarta Sans;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 150%;
+		letter-spacing: 0%;
+		text-align: left;
+}
+
+.main__line {
+	/* Rectangle 3 */
+		position: absolute;
+		width: 200px;
+		height: 10px;
+		left: 120px;
+		top: 265px;
+
+		background: rgb(44, 54, 63);
+}
+
+.main__button {
+	/* btn */
+		position: absolute;
+		width: 229px;
+		height: 72px;
+		left: 120px;
+		top: 663px;
+		/* Автолейаут */
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 10;
+		padding: 18px 40px 18px 40px;
+
+		background: rgb(44, 54, 63);
+
+
+		
+		color: rgb(242, 245, 234);
+		font-family: Plus Jakarta Sans;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 150%;
+		letter-spacing: 10%;
+		text-align: left;
+		text-transform: uppercase;
 }
